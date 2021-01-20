@@ -1,0 +1,20 @@
+{
+    "require": {
+        "phpunit/phpunit": "^8",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
